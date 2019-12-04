@@ -6,7 +6,7 @@ end
 card_total = 0
 def deal_card
   c = 0
-  c = rand(12) + 1
+  c = rand(11) + 1
   c
 end
 
