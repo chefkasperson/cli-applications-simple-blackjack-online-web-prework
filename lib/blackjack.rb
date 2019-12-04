@@ -10,8 +10,8 @@ def deal_card
   c
 end
 
-def display_card_total(num)
-  puts "Your cards add up to #{num}"
+def display_card_total(card_total)
+  puts "Your cards add up to #{card_total}"
   # code #display_card_total here
   num
 end
@@ -34,7 +34,7 @@ end
 def initial_round
   card_total = deal_card + deal_card
   # code #initial_round 
-  card_total
+  display_card_total(card_total)
 end
 
 def hit?
