@@ -7,12 +7,12 @@ card_total = 0
 def deal_card
   c = 0
   c = rand(11) + 1
+  card_total += c
   c
 end
 
 def display_card_total(card_total)
-  \
-  puts card_total
+  puts "Your cards add up to #{card_total}"
   # code #display_card_total here
 end
 
