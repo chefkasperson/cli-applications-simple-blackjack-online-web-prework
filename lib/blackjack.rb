@@ -26,12 +26,13 @@ def get_user_input
   # code #get_user_input here
 end
 
-def end_game
+def end_game(number)
+  puts "Sorry, you hit #{number}. Thanks for playing!"
   # code #end_game here
 end
 
-def initial_round(number)
-  puts "Sorry, you hit #{number}. Thanks for playing!"
+def initial_round
+  
   # code #initial_round here
 end
 
