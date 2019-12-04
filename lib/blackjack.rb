@@ -11,6 +11,8 @@ def deal_card
 end
 
 def display_card_total
+  card_total += c
+  puts card_total
   # code #display_card_total here
 end
 
