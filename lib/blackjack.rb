@@ -38,6 +38,7 @@ def initial_round
 end
 
 def hit?
+  deal_card
   # code hit? here
 end
 
