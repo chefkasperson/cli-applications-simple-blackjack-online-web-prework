@@ -42,6 +42,8 @@ def hit?
 end
 
 def invalid_command
+  puts "Please enter a valid command."
+  prompt_user
   # code invalid_command here
 end
 
