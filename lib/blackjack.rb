@@ -31,7 +31,7 @@ def end_game
 end
 
 def initial_round(number)
-  puts "Sorry, you hit #{card_total}. Thanks for playing!"
+  puts "Sorry, you hit #{number}. Thanks for playing!"
   # code #initial_round here
 end
 
