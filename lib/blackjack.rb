@@ -41,7 +41,15 @@ end
 def hit?(numb)
   prompt_user
   get_user_input
-  
+  if input == h
+    deal_card
+    display_card_total
+    prompt_user
+    elsif input == s
+    end_game(card_total)
+  else
+    invalid_command
+  end
   # code hit? here
 end
 
